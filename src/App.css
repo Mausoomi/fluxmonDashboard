@@ -1,0 +1,178 @@
+* {
+  font-family: "Varela Round", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.iconRotate {
+  width: 42px;
+  height: 31px;
+  padding-right: 10px;
+}
+
+.dropDownBox {
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  width: 166px;
+  /* text-align: left; */
+}
+.battery {
+  height: 16px;
+  width: 38px;
+}
+.AccordionBox {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  gap: 5px;
+}
+
+.noVoiceBox {
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+.noDisplay {
+  visibility: hidden;
+  width: 30px;
+}
+.alertIcon {
+  width: 20px;
+}
+
+.outerBox {
+  /* font-size: 100px; */
+  width: 47px;
+  height: 145px;
+}
+
+.outerBox img {
+  height: 100%;
+  width: 100%;
+}
+p.AccordionHd {
+  font-weight: 800;
+  font-size: 11px;
+  width: 87px;
+}
+p.bottlePercentage {
+  font-size: 19px;
+  font-weight: 800;
+  padding-top: 16px;
+}
+p.AccordionPara {
+  color: gray;
+  font-size: 13px;
+}
+
+.grayBottle {
+  height: 26px;
+}
+.accordionHeader {
+  display: flex;
+  align-self: flex-end;
+  justify-content: end;
+  gap: 1rem;
+}
+.grayBottelBox {
+  display: flex;
+  gap: 3px;
+}
+.spaceInAccordion {
+  padding: 1rem 0;
+}
+.sidebar {
+  --cui-sidebar-bg: #ffffff !important;
+}
+.sidebar-brand {
+  background: rgba(255, 255, 255, 0.87) !important;
+}
+
+.sidebar-nav .nav-link.active {
+  color: rgb(2 2 2 / 87%);
+}
+.dashIcon {
+  width: 64px;
+}
+.sidebar-nav .nav-link.active .nav-icon {
+  color: rgb(135 133 133 / 87%);
+}
+
+.sidebar-nav .nav-link.active {
+  background: rgb(0 0 0 / 5%);
+}
+.containerColor {
+  width: 45%;
+}
+.noVoiceImg {
+  width: 30px;
+}
+.LowBattery {
+  width: 33px;
+  height: 17px;
+}
+.AccordionBoxNone {
+  display: none;
+}
+.GraphPecentage {
+  text-align: end;
+  font-size: 18px;
+  font-weight: 900;
+}
+.infoBoxs {
+  display: flex;
+  gap: 10px;
+}
+p.leveP {
+  font-size: 19px;
+  font-weight: 700;
+}
+.NoGrayBottle {
+  display: none;
+}
+
+.room {
+  width: 50%;
+}
+p.areaName {
+  font-size: 21px;
+  color: #0a5b0a;
+  font-weight: 700;
+}
+.HotelBox {
+  padding-bottom: 31px;
+}
+.dropdown-item {
+  height: 32px;
+}
+.GraphPecentage span {
+  font-size: 13px;
+}
+@media screen and (max-width: 991px) {
+  .margintopBox {
+    margin-top: 20px;
+  }
+
+  .infoBoxs {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerColor {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .dropDownBox {
+    width: 110px;
+    margin-bottom: 10px;
+  }
+}
